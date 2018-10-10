@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="java.css">
+    <script src="Mini-Projects.js"></script>
+    <title>Mini-projects</title>
+</head>
+<body>
+<div class="topnav">
+    <a class="Michael" href="index.html">Home</a>
+    <a href="friends.html">Friends</a>
+    <a href="Michael.html">Michael Garay</a>
+    <a href="mini-projects.html">Mini-projects</a>
+    <a href="https://www.univision.com/">Mexican soccer news Channel </a>
+
+</div>
+
+<form name="TempBug">
+    <h4>Temperature converter</h4>
+    <br><br>
+
+    Please type a number to convert a season: <input type="text" name="Temp">
+    <br>
+    <button type="button" onclick="document.TempBug.result.value=Season()">Convert!</button>
+    <br><br>
+    <input type="text" readonly="true" name="result">
+
+
+
+</form>
+
+
+<form name="Calories">
+    <h4>Calories</h4>
+    <br><br>
+    Language codes: 'MLS' Soccer, 'NBA' Basketball, 'NFL' Football, 'PGA' Golf, 'MLB' Baseball
+    <br><br>
+    Please type a sport code to see how many calories burnt: <input type="text" name="sport">
+    <br>
+    <button type="button" onclick="document.Calories.result.value=Caloriesburned()">Translate!</button>
+    <br>
+    <input type="text" readonly="true" name="result">
+
+</form>
+<br><br>
+
+
+<form name="project3">
+    <h4>Grade converter</h4>
+    <br><br>
+
+    Please type a numeric score to convert: <input type="text" name="Grade">
+    <br>
+    <button type="button" onclick="document.project3.result.value=assignGrade()">Convert!</button>
+    <br><br>
+    <input type="text" readonly="true" name="result">
+
+
+
+</form>
+
+</body>
+</html>
